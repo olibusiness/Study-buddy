@@ -1,0 +1,68 @@
+.Eisenhower-Matrix{
+    background: -webkit-linear-gradient(90deg, #007cf0, #00dfd8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0% auto;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 60px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+* { outline: none; }
+h4{
+    text-align: center;
+    align-content: center;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+    font-family: oswald;
+} 
+h6 { background: #a0f2b6; margin: 0; text-align: center; 
+		font-weight: bold; 
+	height: 30px; line-height: 30px; }
+.box { 
+	display: inline-block;
+	width: 75%; 
+	padding: 10px;
+	overflow: auto;
+    align-items: center;
+}
+button { 
+	float: left; 
+	background: rgba(0,0,0,0.1) !important;
+	border: none !important;
+	color: rgba(0,0,0,0.3) !important;
+}
+#iu { background: #a0f2b6; }
+#nu { background: #9bd7fa; }
+#in { background: #e3a674; }
+#nn { background: #e68e87; }
+ul { padding-top: 15px; }
+li {
+	list-style-type: none;
+}
+input[type="text"] {
+	border: none;
+	background: none;
+	width: 90%;
+	padding: 5px 5px 5px 10px;
+	border-radius: 25px;
+	color: rgba(0,0,0,0.5);
+}
+input[type="text"]:focus {
+	background: rgba(0,0,0,0.1);
+}
+
+.glyphicon { 
+	color: rgba(0,0,0,0.1); 
+	position: relative;
+	left: -27px;
+	top: 2px;
+	cursor: pointer;
+	padding: 6px;
+}

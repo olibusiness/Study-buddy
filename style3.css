@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body,
+  html {
+    background-color: #040e21;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+.Tamato-text, .Eisenhower-Matrix{
+    width: 100%;
+    margin: 0% auto;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 60px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(90deg, #007cf0, #00dfd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter", sans-serif;
+}
+.Eisenhower-Matrix,.Parkinsion-law{
+  background: -webkit-linear-gradient(90deg, #007cf0, #00dfd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  margin: 0% auto;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 60px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+.tamato-text1{
+  text-decoration: none;
+  color: grey; 
+}
+.Parkinsion-law{
+  background: -webkit-linear-gradient(90deg, #007cf0, #00dfd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  margin: 0% auto;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 60px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+.pomodoro-details{
+   text-decoration: none; 
+}
+.Tamato,.Eisenhower-Matrix,.tamato-text1,.Parkinsion-law{
+    display: inline-block;
+}
+.pomodoro-info, .Parkinsion-info, .Eisenhower-info{
+    color: grey;
+    text-decoration: none;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    max-width: 70ch;
+    margin: 0% auto;
+    padding: 0px 10px 0px 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.Bottom-img {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .Bottom-img {
+    display: none;
+  }
+  .Tamato-text,.Eisenhower-Matrix,.Parkinsion-law{
+    font-size: 40px;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+
+  html{
+    margin: 0%;
+  }
+
+  .Bottom-img {
+    display: block;
+    max-width: 99%;
+    max-height: 99%;
+    margin-top: 315px;
+  }
+
+  .Bottom {
+    margin-top: auto;
+  }
+}
